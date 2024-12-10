@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="fill_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        android:hint="New Date"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744" />
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+        android:background="#FAFAFA"
+        android:ems="10"
+        android:hint="DD/MM/YYYY"
+        android:inputType="date"
+        android:paddingLeft="10dp"
+        android:textColor="#0C0C0C"
+        android:textColorHighlight="#05FD0F"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        android:text="OK"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:backgroundTint="#F7F6FAF6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="64dp"
+        android:layout_height="53dp"
+        android:background="#FAFAFA"
+        android:ems="10"
+        android:hint="XX"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#FAFAFA"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:text="Date Calculator"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="156dp"
+        android:layout_height="53dp"
+        android:background="#FAFAFA"
+        android:paddingLeft="35dp"
+        android:paddingTop="12dp"
+        android:text="Enter Date"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="170dp"
+        android:layout_height="53dp"
+        android:background="#FAFAFA"
+        android:paddingLeft="23dp"
+        android:paddingTop="12dp"
+        android:text="Enter The Value"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:background="#FAFAFA"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:backgroundTint="#F7000000"
+        app:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        android:checked="false"
+        android:text="Add"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        android:checked="false"
+        android:text="Substract"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24000001">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:background="#FAFAFA"
+            android:text="Years"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:background="#FAFAFA"
+            android:text="Months"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="#FAFAFA"
+            android:text="Weeks"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#000000" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FAFAFA"
+            android:text="Days"
+            android:textColor="#0C0C0C"
+            android:textColorHint="#000000" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
